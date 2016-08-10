@@ -1,0 +1,42 @@
+<html>
+<head></head>
+<body>
+<p id="demo">Date</p>
+<button type="button" onClick="m()">try it</button>
+<script type="text/javascript">
+function m()
+{
+var day;
+var text;
+switch(new getDate().getDay()){
+case 0:
+  sunday;
+   break;
+case 1:
+  monday;
+   break;
+case 2:
+  thuesday;
+  break;
+case 3:
+   wednesday;
+   break;
+case 4:
+   thrusday;
+   break;
+case 5:
+   friday;
+   break;
+case 4:
+   saturday;
+   break;
+default:
+       invalid day;
+
+}
+text="Today is"+day;
+document.getElementById("demo").innerHTML=text;
+}
+</script>
+</body>
+</html>
